@@ -1,0 +1,31 @@
+{
+  "name": "boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prod": "next build && next export -o build"
+  },
+  "dependencies": {
+    "@canvasjs/react-charts": "^1.0.0",
+    "@reduxjs/toolkit": "^1.9.5",
+    "autoprefixer": "10.4.14",
+    "chart.js": "^4.4.0",
+    "eslint": "8.40.0",
+    "eslint-config-next": "13.4.1",
+    "next": "13.4.1",
+    "postcss": "8.4.23",
+    "react": "18.2.0",
+    "react-apexcharts": "^1.4.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "18.2.0",
+    "react-google-charts": "^4.0.1",
+    "react-icons": "^4.8.0",
+    "react-redux": "^8.0.5",
+    "sass": "^1.62.1",
+    "tailwindcss": "3.3.2"
+  }
+}
